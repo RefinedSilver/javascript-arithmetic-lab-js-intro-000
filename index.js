@@ -3,18 +3,15 @@ function add (a, b) {
 }
 
 function subtract (a, b) {
-  a -= b;
-  return number;
+  return a -= b;;
 }
 
-function multiply (number) {
-  number *= number;
-  return number;
+function multiply (a, b) {
+  return a *= b;
 }
 
-function divide (number) {
-  number /= number;
-  return number;
+function divide (a, b) {
+  return a /= b;
 }
 
 function increment (n) {
