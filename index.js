@@ -2,14 +2,14 @@ functions add (number) {
   return number += 3;
 }
 
-functions subtract () {
-  return 60 - 40;
+functions subtract (number) {
+  return number -= 2;
 }
 
-functions multiply () {
-  return 2 * 3.4;
+functions multiply (number) {
+  return number *= 10;
 }
 
-functions divide () {
-  return 5.0 / 2.5;
+functions divide (number) {
+  return number /= 5;
 }
