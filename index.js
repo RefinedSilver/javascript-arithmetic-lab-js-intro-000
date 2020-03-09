@@ -14,4 +14,10 @@ function divide (number) {
   return number /= 5;
 }
 
-function increment (number)
+function increment (n) {
+  n++
+}
+
+function decrement (n) {
+  n--
+}
