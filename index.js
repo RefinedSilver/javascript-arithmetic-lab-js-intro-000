@@ -1,10 +1,10 @@
-function add (number) {
-  number += number;
+function add (a, b) {
+  a += b;
   return number;
 }
 
-function subtract (number) {
-  number -= number;
+function subtract (a, b) {
+  a -= b;
   return number;
 }
 
