@@ -1,17 +1,17 @@
 function add (number) {
-  return number += 3;
+  return number += number;
 }
 
 function subtract (number) {
-  return number -= 2;
+  return number -= number;
 }
 
 function multiply (number) {
-  return number *= 10;
+  return number *= number;
 }
 
 function divide (number) {
-  return number /= 5;
+  return number /= number;
 }
 
 function increment (n) {
