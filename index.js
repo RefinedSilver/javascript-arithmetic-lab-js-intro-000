@@ -22,10 +22,10 @@ function decrement (n) {
   return --n;
 }
 
-function makeInt(string) {
-  return parseInt(string);
+function makeInt(a, b) {
+  return parseInt(a, b);
 }
 
-function preserveDecimal(string) {
-  parseFloat(string);
+function preserveDecimal(a, b) {
+  return parseFloat(a, b);
 }
