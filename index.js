@@ -1,14 +1,16 @@
 function add (number) {
-  return number += number;
+  number += number;
+  return number;
 }
 
 function subtract (number) {
-  number -= number
+  number -= number;
   return number;
 }
 
 function multiply (number) {
-  return number *= number;
+  number *= number;
+  return number;
 }
 
 function divide (number) {
