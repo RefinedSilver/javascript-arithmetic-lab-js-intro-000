@@ -14,7 +14,8 @@ function multiply (number) {
 }
 
 function divide (number) {
-  return number /= number;
+  number /= number;
+  return number;
 }
 
 function increment (n) {
