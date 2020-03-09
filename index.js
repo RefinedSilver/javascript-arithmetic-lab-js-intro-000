@@ -1,15 +1,17 @@
-functions add (number) {
+function add (number) {
   return number += 3;
 }
 
-functions subtract (number) {
+function subtract (number) {
   return number -= 2;
 }
 
-functions multiply (number) {
+function multiply (number) {
   return number *= 10;
 }
 
-functions divide (number) {
+function divide (number) {
   return number /= 5;
 }
+
+function increment (number)
