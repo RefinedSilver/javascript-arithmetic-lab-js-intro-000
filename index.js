@@ -1,5 +1,5 @@
-functions add () {
-  return 1 + 80;
+functions add (number) {
+  return number += 3;
 }
 
 functions subtract () {
