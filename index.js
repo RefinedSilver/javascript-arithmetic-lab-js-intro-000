@@ -3,7 +3,8 @@ function add (number) {
 }
 
 function subtract (number) {
-  return number -= number;
+  number -= number
+  return number;
 }
 
 function multiply (number) {
